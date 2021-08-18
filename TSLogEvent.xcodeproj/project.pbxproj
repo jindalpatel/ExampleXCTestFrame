@@ -43,8 +43,8 @@
 		20F9BD2926A72D5D00A33C1F /* TSLogEventConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F9BD2126A72C5600A33C1F /* TSLogEventConstants.swift */; };
 		20F9BD2D26A72D5E00A33C1F /* TSLogEventConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F9BD2126A72C5600A33C1F /* TSLogEventConstants.swift */; };
 		20F9BD4C26A746E100A33C1F /* Logger+Statistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F9BD4B26A746E100A33C1F /* Logger+Statistics.swift */; };
-		68AB644C26CCE1B800375737 /* SplunkMint.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68AB644B26CCE1B800375737 /* SplunkMint.xcframework */; };
-		68AB644D26CCE1B800375737 /* SplunkMint.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68AB644B26CCE1B800375737 /* SplunkMint.xcframework */; };
+		68AB645526CD0E6D00375737 /* SplunkMint.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68AB645426CD0E6D00375737 /* SplunkMint.xcframework */; };
+		68AB645626CD0E6D00375737 /* SplunkMint.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68AB645426CD0E6D00375737 /* SplunkMint.xcframework */; };
 		D72678201DE36729007881FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D726781E1DE36729007881FC /* Main.storyboard */; };
 		D72678221DE36729007881FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D72678211DE36729007881FC /* Assets.xcassets */; };
 		D72678251DE36729007881FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D72678231DE36729007881FC /* LaunchScreen.storyboard */; };
@@ -93,7 +93,7 @@
 		20C75F472655A7C70083846F /* DynatraceConfigTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynatraceConfigTests.swift; sourceTree = "<group>"; };
 		20F9BD2126A72C5600A33C1F /* TSLogEventConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSLogEventConstants.swift; sourceTree = "<group>"; };
 		20F9BD4B26A746E100A33C1F /* Logger+Statistics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Logger+Statistics.swift"; sourceTree = "<group>"; };
-		68AB644B26CCE1B800375737 /* SplunkMint.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = SplunkMint.xcframework; sourceTree = "<group>"; };
+		68AB645426CD0E6D00375737 /* SplunkMint.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = SplunkMint.xcframework; sourceTree = "<group>"; };
 		D72678131DE36728007881FC /* TSLogEventSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TSLogEventSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D726781F1DE36729007881FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D72678211DE36729007881FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -110,7 +110,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				093BEED826BDDAB000FA6FC6 /* CoreLocation.framework in Frameworks */,
-				68AB644D26CCE1B800375737 /* SplunkMint.xcframework in Frameworks */,
+				68AB645626CD0E6D00375737 /* SplunkMint.xcframework in Frameworks */,
 				093BEED626BDDAAA00FA6FC6 /* SystemConfiguration.framework in Frameworks */,
 				093BEED426BDDAA500FA6FC6 /* WebKit.framework in Frameworks */,
 				093BEECF26BDDA9300FA6FC6 /* CoreTelephony.framework in Frameworks */,
@@ -128,7 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68AB644C26CCE1B800375737 /* SplunkMint.xcframework in Frameworks */,
+				68AB645526CD0E6D00375737 /* SplunkMint.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,7 +193,7 @@
 		D79F03FF1DE36128002CFC9E = {
 			isa = PBXGroup;
 			children = (
-				68AB644B26CCE1B800375737 /* SplunkMint.xcframework */,
+				68AB645426CD0E6D00375737 /* SplunkMint.xcframework */,
 				0A9B85A62475FB0300003CCC /* README.md */,
 				D79F040A1DE36128002CFC9E /* TSLogEvent */,
 				D72678141DE36729007881FC /* TSLogEventSample */,
