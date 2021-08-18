@@ -156,7 +156,6 @@
 		68D6E22CACDCA1FB5807D8D3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				68AB644B26CCE1B800375737 /* SplunkMint.xcframework */,
 				093BEED726BDDAB000FA6FC6 /* CoreLocation.framework */,
 				093BEED526BDDAAA00FA6FC6 /* SystemConfiguration.framework */,
 				093BEED326BDDAA500FA6FC6 /* WebKit.framework */,
@@ -194,6 +193,7 @@
 		D79F03FF1DE36128002CFC9E = {
 			isa = PBXGroup;
 			children = (
+				68AB644B26CCE1B800375737 /* SplunkMint.xcframework */,
 				0A9B85A62475FB0300003CCC /* README.md */,
 				D79F040A1DE36128002CFC9E /* TSLogEvent */,
 				D72678141DE36729007881FC /* TSLogEventSample */,
